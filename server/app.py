@@ -22,14 +22,6 @@ class Item(BaseModel):
 async def root():
     return {"message": "Hello World"}
 
-@app.get("/add/{fruit}")
-async def add_fruit(fruit: str):
-    id = collection.insert_one({"fruit": fruit}).inserted_id 
-    return {"id": str(id)}
-
-@app.get("/list")
-async def list_fruits():
-    return {"results": list(collection.find({}, {"_id": False}))}
 
 @app.get("/show_columns")
 async def show_columns():
