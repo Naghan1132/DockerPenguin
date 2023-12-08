@@ -1,0 +1,8 @@
+uvicorn
+fastapi
+pymongo
+streamlit
+seaborn
+joblib
+pydantic
+scikit-learn
