@@ -1,39 +1,26 @@
-# DockerPenguin
+# Penguin Race Prediction Docker
 
-# Project Title
-
-A brief description of your Dockerized project.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
-  - [Usage](#usage)
-- [Configuration](#configuration)
-- [Docker Compose](#docker-compose)
-- [Contributing](#contributing)
-- [License](#license)
+A Dockerized client-server application for predicting the race of penguins.
 
 ## Overview
 
-Provide a high-level overview of your project and its purpose. Include any relevant information about the technologies used.
+This project utilizes a client-server architecture for predicting the race of penguins. The server hosts the prediction model, while the client interacts with the server to make predictions.
 
 ## Prerequisites
 
-List any prerequisites or dependencies that users need to have installed before they can use your Dockerized application.
+Before getting started, make sure you have the following installed:
+
+- Docker
 
 ## Getting Started
 
-Explain how users can get a copy of your project up and running on their local machine.
+To use this application, follow these steps:
 
 ### Installation
 
-Provide step-by-step instructions on how to install your Dockerized application.
+Clone the repository and build the Docker image:
 
 ```bash
-# Example installation steps
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-docker build -t your-image-name .
+git clone https://github.com/your-username/penguin-prediction-docker.git
+cd penguin-prediction-docker
+docker build -t penguin-prediction .
