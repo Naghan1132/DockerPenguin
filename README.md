@@ -10,7 +10,7 @@ This project utilizes a client-server architecture for predicting the race of pe
 
 Before getting started, make sure you have the following installed:
 
-- Docker
+- Docker (docker-compose)
 
 ## Getting Started
 
@@ -21,6 +21,7 @@ To use this application, follow these steps:
 Clone the repository and build the Docker image:
 
 ```bash
-git clone https://github.com/Naghan1132/DockerPenguin.git
+
+git clone [https://github.com/Naghan1132/DockerPenguin.git](https://github.com/Naghan1132/DockerPenguin.git)
 cd DockerPenguin
-docker build -t penguin-prediction .
+docker-compose up
