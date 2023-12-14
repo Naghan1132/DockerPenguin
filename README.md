@@ -22,6 +22,6 @@ Clone the repository and build the Docker image:
 
 ```bash
 
-git clone [https://github.com/Naghan1132/DockerPenguin.git](https://github.com/Naghan1132/DockerPenguin.git)
+git clone https://github.com/Naghan1132/DockerPenguin.git
 cd DockerPenguin
 docker-compose up
