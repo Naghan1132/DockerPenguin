@@ -25,3 +25,9 @@ Clone the repository and build the Docker image:
 git clone https://github.com/Naghan1132/DockerPenguin.git
 cd DockerPenguin
 docker-compose up
+```
+
+### Explore and make predictions
+
+Go to : ```http://172.18.0.4:8501/```  to visit the app
+
