@@ -21,6 +21,6 @@ To use this application, follow these steps:
 Clone the repository and build the Docker image:
 
 ```bash
-git clone https://github.com/your-username/penguin-prediction-docker.git
-cd penguin-prediction-docker
+git clone https://github.com/Naghan1132/DockerPenguin.git
+cd DockerPenguin
 docker build -t penguin-prediction .
