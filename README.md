@@ -3,7 +3,7 @@
 A Dockerized client-server application for predicting the race of penguins.
 
 
-![Predictions]([https://ibb.co/Hd8hLVD])
+![Predictions](/img/pingouin.png)
 
 
 ## Overview
