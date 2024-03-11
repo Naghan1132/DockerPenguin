@@ -25,7 +25,9 @@ To use this application, follow these steps:
 Clone the repository and build the Docker image:
 
 ```bash
-python -m streamlit run app.py
+git clone https://github.com/Naghan1132/DockerPenguin.git
+cd DockerPenguin
+docker-compose up
 ```
 
 ## Explore and make predictions
